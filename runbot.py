@@ -14,7 +14,6 @@ import argparse
 from datetime import datetime
 from dataclasses import dataclass
 from typing import Optional, List, Dict, Any
-import pytz
 from binance.um_futures import UMFutures
 from binance.websocket.um_futures.websocket_client import UMFuturesWebsocketClient
 import dotenv
@@ -101,7 +100,7 @@ class TradingLogger:
             with open(self.log_file, mode='a', newline='') as file:
                 writer = csv.writer(file)
                 writer.writerow([
-                    datetime.now(pytz.timezone('Europe/Paris')).isoformat(),
+                    datetime.now().isoformat(),
                     self.symbol,
                     transaction_id,
                     tx_type,
