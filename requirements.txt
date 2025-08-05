@@ -1,5 +1,7 @@
 binance-futures-connector==4.1.0
 rich==13.7.0
+pandas==2.3.1
 python-dotenv==1.0.0
 python-telegram-bot==20.7
+pytz==2025.2
 schedule==1.2.0
