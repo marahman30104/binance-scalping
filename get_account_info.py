@@ -31,29 +31,11 @@ for position in position_risk:
     print(f"Unrealized PnL: {position['unRealizedProfit']}")
 
 # Get open orders
-usdc_order_amount = 0
-usdt_order_amount = 0
+order_amount = {}
 open_orders = client.get_orders()
 for order in open_orders:
-    if order['side'] == 'BUY':
-        print(order)
-    else:
-        if order['symbol'] == 'ETHUSDT':
-            usdt_order_amount += float(order['origQty'])
-        elif order['symbol'] == 'ETHUSDC':
-            usdc_order_amount += float(order['origQty'])
+    if order['symbol'] not in order_amount:
+        order_amount[order['symbol']] = 0
+    order_amount[order['symbol']] += float(order['origQty'])
 
-print(f"USDC order amount: {usdc_order_amount}")
-print(f"USDT order amount: {usdt_order_amount}")
-
-
-# client.new_order(
-#     symbol='ETHUSDT',
-#     side='BUY',
-#     positionSide='BOTH',
-#     type='LIMIT',
-#     quantity=0.189,
-#     priceMatch='QUEUE',
-#     timeInForce='GTC',
-#     reduceOnly="false"
-# )
+print(f"Order amount: {order_amount}")
