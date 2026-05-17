@@ -422,15 +422,17 @@ class HourlyReporter:
 
         # Initialize last activity check time
         last_activity_check = datetime.now()
+        last_hourly_report_hour = -1
 
         # Keep the scheduler running
         while True:
             current_time = datetime.now()
-            
+
             # Check if it's time for hourly report (at :00)
-            if current_time.minute == 0:
+            if current_time.minute == 0 and current_time.hour != last_hourly_report_hour:
                 try:
                     self.send_hourly_report()
+                    last_hourly_report_hour = current_time.hour
                 except Exception as e:
                     logger.error(f"Error sending hourly report: {e}")
             
